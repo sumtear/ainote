@@ -1,0 +1,29 @@
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "title": "测试笔记",
+  "content": "这是一条测试笔记内容"
+}
+
+###更新笔记
+PUT http://localhost:5000/api/notes/4
+Content-Type: application/json
+
+{
+  "title": "更新后的标题",
+  "content": "更新后的内容"
+}
+
+###删除笔记
+DELETE http://localhost:5000/api/notes/3
+
+
+###
+GET http://localhost:5000/api/notes/10
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/users/1
+Content-Type: application/json

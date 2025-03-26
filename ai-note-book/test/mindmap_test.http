@@ -1,0 +1,22 @@
+### 健康检查
+GET http://localhost:5000/health
+Content-Type: application/json
+
+### 生成思维导图
+POST http://localhost:5000/generate-mindmap
+Content-Type: application/json
+
+{
+  "text": "李彦宏是中国著名的互联网企业家，他于1968年11月17日出生于山西省阳泉市。2000年，李彦宏创立了百度公司，这是一家全球领先的搜索引擎公司。百度公司的总部位于北京市。2021年，李彦宏正式卸任百度公司的职务。"
+}
+
+### 生成思维导图保存成笔记
+POST http://localhost:5000/generate-mindmap
+Content-Type: application/json
+
+{
+  "text": "李彦宏是中国著名的互联网企业家，他于1968年11月17日出生于山西省阳泉市。2000年，李彦宏创立了百度公司，这是一家全球领先的搜索引擎公司。百度公司的总部位于北京市。2021年，李彦宏正式卸任百度公司的职务。",
+  "user_id": 1,
+  "save_as_note": true,
+  "title": "李彦宏的思维导图"
+}

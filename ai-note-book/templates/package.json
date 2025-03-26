@@ -1,0 +1,32 @@
+{
+  "name": "try",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.10",
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.8.3",
+    "core-js": "^3.41.0",
+    "element-plus": "^2.9.6",
+    "quill": "^2.0.3",
+    "quill-better-table": "^1.2.10",
+    "quill-delta": "^5.1.0",
+    "quill-image-extend-module": "^1.1.2",
+    "quill-table": "^1.0.0",
+    "quill-table-ui": "^1.0.7",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-vue-components": "^28.4.1",
+    "vue": "^3.5.13",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.2.0"
+  }
+}
